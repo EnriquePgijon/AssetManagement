@@ -16,7 +16,7 @@ public class ServicioActivos {
 
     public void registrar(String nombre){
         if(nombre.isBlank()){
-            throw new IllegalArgumentException("No se puede registrar un activo sin nombre");
+            throw new NombreInvalidoException();
         }
         Activo activo = new Activo(siguienteId, nombre);
         siguienteId++;
