@@ -1,5 +1,6 @@
-package com.enrique.gestor_activos;
+package com.enrique.gestor_activos.repository;
 
+import com.enrique.gestor_activos.model.Activo;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -7,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public class RepositorioActivosEnMemoria implements RepositorioActivos{
+public class RepositorioActivosEnMemoria implements RepositorioActivos {
     private final List<Activo> activos = new ArrayList<>();
 
     @Override

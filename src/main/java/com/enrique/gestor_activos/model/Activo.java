@@ -1,4 +1,4 @@
-package com.enrique.gestor_activos;
+package com.enrique.gestor_activos.model;
 
 public class Activo {
     private int id;

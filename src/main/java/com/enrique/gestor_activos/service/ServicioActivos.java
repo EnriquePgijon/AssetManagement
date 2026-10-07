@@ -1,5 +1,9 @@
-package com.enrique.gestor_activos;
+package com.enrique.gestor_activos.service;
 
+import com.enrique.gestor_activos.model.Activo;
+import com.enrique.gestor_activos.exception.ActivoNoEncontradoException;
+import com.enrique.gestor_activos.exception.NombreInvalidoException;
+import com.enrique.gestor_activos.repository.RepositorioActivos;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

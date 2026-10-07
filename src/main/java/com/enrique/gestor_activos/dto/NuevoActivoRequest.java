@@ -1,4 +1,4 @@
-package com.enrique.gestor_activos;
+package com.enrique.gestor_activos.dto;
 
 public record NuevoActivoRequest(String nombre) {
 

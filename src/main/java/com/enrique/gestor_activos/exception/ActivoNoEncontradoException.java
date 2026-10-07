@@ -1,4 +1,4 @@
-package com.enrique.gestor_activos;
+package com.enrique.gestor_activos.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

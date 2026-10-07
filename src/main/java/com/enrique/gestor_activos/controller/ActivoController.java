@@ -1,4 +1,7 @@
-package com.enrique.gestor_activos;
+package com.enrique.gestor_activos.controller;
+import com.enrique.gestor_activos.model.Activo;
+import com.enrique.gestor_activos.dto.NuevoActivoRequest;
+import com.enrique.gestor_activos.service.ServicioActivos;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
