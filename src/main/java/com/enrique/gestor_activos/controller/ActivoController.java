@@ -29,4 +29,9 @@ public class ActivoController {
     public Activo buscarPorId(@PathVariable int id){
         return servicio.buscarPorId(id);
     }
+
+    @DeleteMapping("/activos/{id}")
+    public void eliminarPorId(@PathVariable int id){
+         servicio.eliminar(id);
+    }
 }

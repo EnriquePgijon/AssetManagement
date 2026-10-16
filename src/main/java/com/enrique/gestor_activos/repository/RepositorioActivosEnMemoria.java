@@ -30,5 +30,10 @@ public class RepositorioActivosEnMemoria implements RepositorioActivos {
         }
         return Optional.empty();
     }
+
+    @Override
+    public void eliminar(int id){
+        activos.removeIf(activo -> activo.getId() == id);
+    }
 }
 

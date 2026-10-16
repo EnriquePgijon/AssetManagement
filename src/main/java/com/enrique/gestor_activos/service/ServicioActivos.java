@@ -43,4 +43,9 @@ public class ServicioActivos {
 
         return resultado.get();
     }
+
+    public void eliminar(int id){
+        buscarPorId(id);
+        repositorio.eliminar(id);
+    }
 }
